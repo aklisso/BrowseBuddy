@@ -1,0 +1,6 @@
+fastapi==0.163.1
+ollama==0.6.3
+pypdf==7.1.0
+requests==2.34.2
+trafilatura==2.3.1
+uvicorn==0.54.0
