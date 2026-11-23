@@ -5,7 +5,9 @@ _BrowseBuddy_ consists of a Chrome side-panel extension featuring a locally-host
 
 To use this extension, you must:
 - Install the Ollama app from ollama.com and run ollama pull qwen2.5:3b
+- Download the files in this GitHub repository to your computer
 - Load the extension in Chrome with chrome://extensions → Developer mode → Load unpacked → the extension folder
+- Make sure Ollama is open and running
 - Run the following commands in terminal:
   - python3 -m venv \<name of your desired virtual environment\>
   - source \<name of your desired virtual environment\>/bin/activate
