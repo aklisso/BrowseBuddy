@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "BrowseBuddy",
+  "version": "0.1",
+  "description": "Ask questions about the current page using a model on your own computer.",
+  "permissions": ["sidePanel", "tabs"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "background": { "service_worker": "background.js" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "action": { "default_title": "Browse with BrowseBuddy" }
+}
